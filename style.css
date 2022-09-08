@@ -22,6 +22,25 @@
     margin: 0 auto;
     z-index: 999;
   }
+    
+  html{
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  scroll-padding-top: 6rem;
+  overflow-x: hidden;
+ }
+
+  section{
+  padding: 2rem 9%;
+  }
+
+ body {
+ background-color: #131415;
+
+ }
+
+
+
   .logo {
     height: 60%;
   }
@@ -201,3 +220,167 @@
   }
 
   
+/* ===========products section (most popular)========== */
+
+.title{
+  position: absolute;
+  width: 278px;
+  height: 23px;
+  left: 120px;
+  top: 450px;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 131.02%;
+  /* or 29px */
+  color: #FFFFFF;
+  }
+
+.popular{
+  text-align: center;
+
+}
+
+.popular .container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  flex-wrap: wrap;
+  padding-top: 500px;
+
+
+}
+
+.popular .container .box{
+  width: 23%;
+  min-width: 250px;
+  padding: 12px 12px;
+  border: 1px solid #252525;
+  cursor: pointer;
+  background-color: #252525;
+  margin: 15px 0;
+  border-radius: 20px;
+  box-shadow: 30px 20px 20px rgba(0,0,0, 0.02);
+  position: relative;
+
+}
+
+
+.popular .box img{
+  width: 100%;
+  border-radius: 16px;
+ 
+}
+
+.popular .box .content{
+  text-align: left;
+  padding: 10px 0;;
+}
+
+.popular .box .content span{
+  background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+/* text-fill-color: transparent; */
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 19px;
+line-height: 131.02%;
+}
+
+.popular .box .content h2{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 131.02%;
+
+color: #FFFFFF;
+}
+
+.popular .box .content p{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+letter-spacing: 0.5px;
+
+color: #FFFFFF;
+
+mix-blend-mode: normal;
+opacity: 0.3;
+}
+
+.popular  .box .btn{
+background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
+border-radius: 17.5px;
+width: 80px;
+height: 30px;
+}
+.popular .box .btn a{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 15px;
+letter-spacing: 0.5px;
+color: #FFFFFF;
+position: absolute;
+top: 5px;
+left: 2px;
+right: 2px;
+}
+
+.popular .container .box .btn {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+
+}
+
+/* <-------------Footer-------> */
+
+.footer {
+  padding: 60px 0;
+}
+.footer .box-container{
+ text-align: center;
+
+}
+
+
+.footer .box-container .box a{
+  display: row;
+  color: #FFFFFF;
+  font-size: 10px;
+  padding: 16px 0 15px;
+  margin: 15px;
+  
+}
+
+.footer .box-container .box a:hover{
+  color:#FF9300;
+  text-decoration: underline;
+}
+.footer .credit {
+  text-align: center;
+  color: #FFFFFF;
+  font-style: normal;
+ font-weight: 400;
+ font-size: 10px;
+ line-height: 131.02%;
+ padding: 40px 0 30px;
+}
+
+.footer .credit span{
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #FF9300;
+}

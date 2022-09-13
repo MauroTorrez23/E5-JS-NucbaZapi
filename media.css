@@ -47,6 +47,7 @@
     .open-menu {
       display: flex;
     }
+
 }
 
 @media (max-width: 576px) {
@@ -79,3 +80,54 @@
       text-align: center;
     }
   }
+
+    .popular .container .box{
+      min-width: 250px;
+
+}
+
+
+@media (max-width:450px) {
+
+  section{
+    padding: 3rem 6%;
+
+  }
+    
+  .title{
+         font-size: 25px;
+         position: relative;
+         left: 30px;
+         right: 30px;
+       }
+ 
+     }
+     .popular .container .box{
+      width: 10%;
+       min-width: 325px;
+      
+     
+     }
+     .popular .box .content span{
+       font-size: 20px;
+     }
+     .popular .box .content h2{
+       font-size: 15px;
+     }
+     .popular .box .content p{
+       font-size: 10px;
+     }
+     .popular  .box .btn{
+       width: 100px;
+     }
+ 
+     footer .box-container .box a{
+       padding: 10px 0 10px ;
+       font-size: 10px;
+     }
+     .footer .credit{
+       padding: 10px 0 5px;
+       margin: 50px;
+     }
+    }
+

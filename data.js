@@ -251,4 +251,21 @@ const productsData = [
         category: 'milkshakes',
         cardImg: './images/Milkshake6.jpg',
       },
-    ]
+
+
+    function splitProducts(size) {
+      
+      let chunk = [];
+      
+      for (let i = 0; i < productsData.length; i += size)
+        
+        chunk.push(productsData.slice(i, i + size));
+    
+      
+      return chunk;
+    }
+    const allProducts = {
+      productList: splitProducts(6),
+      next: 1,
+      limit: splitProducts(6).length,
+    };

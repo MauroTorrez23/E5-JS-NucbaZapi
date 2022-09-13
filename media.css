@@ -48,3 +48,34 @@
       display: flex;
     }
 }
+
+@media (max-width: 576px) {
+  
+  .cart {
+    left: 0;
+    width: 100%;
+    border: none;
+  }
+
+  .cart-item {
+    flex-wrap: wrap;
+  }
+}
+  @media (max-width: 450px) {
+    
+    .cart {
+      min-width: unset;
+    }
+    .cart-container {
+      align-items: center;
+    }
+    .cart-item {
+      width: 70%;
+      justify-content: center;
+      gap: 20px;
+      flex-direction: column;
+    }
+    .item-info {
+      text-align: center;
+    }
+  }

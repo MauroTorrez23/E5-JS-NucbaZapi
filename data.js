@@ -251,7 +251,7 @@ const productsData = [
         category: 'milkshakes',
         cardImg: './images/Milkshake6.jpg',
       },
-    ]
+
 
     function splitProducts(size) {
       

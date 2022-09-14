@@ -217,12 +217,11 @@
   .empty-msg {
     color: grey;
     font-size: 14px;
-  }
+  }  
 
-  
 /* ===========products section (most popular)========== */
 
-.title{
+ .title{
   position: absolute;
   width: 278px;
   height: 23px;
@@ -235,8 +234,8 @@
   font-size: 22px;
   line-height: 131.02%;
   /* or 29px */
-  color: #FFFFFF;
-  }
+   color: #FFFFFF;
+} 
 
 .popular{
   text-align: center;
@@ -323,6 +322,7 @@ background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
 border-radius: 17.5px;
 width: 80px;
 height: 30px;
+
 }
 .popular .box .btn a{
 font-family: 'Montserrat';
@@ -345,6 +345,152 @@ right: 2px;
 
 }
 
+
+  /* categories */
+
+  #products h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 131.02%;
+    /* or 29px */
+     color: #FFFFFF;
+padding: 30px 0 30px;
+  } 
+
+  .categories{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+  }
+  .category{
+    background:#252525;
+    border: none;
+    padding: 10px 15px;
+    color: #FFFFFF;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .active{
+    background: #FFA100;
+  }
+
+
+
+
+/* .products */
+
+.products-container{
+  display: flex;
+ flex-wrap: wrap;
+gap: 1.5rem;
+
+}
+ .products-container .box {
+  flex: 1 1 30rem;
+  border: 1px solid #252525;
+  cursor: pointer;
+  background-color: #252525;
+  margin: 15px 0;
+  border-radius: 20px;
+  position: relative;
+}
+
+.box .content{
+padding-top: 10px;
+text-align:left;
+
+}
+
+
+.products-container .box img{
+  height: 20rem;
+  border-radius: 16px;
+  text-align: center;
+
+ }
+
+.products-container .box .content span{
+  background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+/* text-fill-color: transparent; */
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+padding-top: 5px;
+}
+
+
+.products-container .box .content h3{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 131.02%;
+  color: #FFFFFF;
+  text-align: left;
+  padding-top: 15px;
+} 
+
+ .products-container .box .content p{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 17px;
+/* identical to box height */
+
+letter-spacing: 0.5px;
+
+color: #FFFFFF;
+
+mix-blend-mode: normal;
+opacity: 0.3;
+padding-top: 5px;
+}
+.content .btn {
+  display: flex;
+  justify-content: right;
+  padding-bottom: 10px;
+}
+.btn-add{
+  background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
+  border-radius: 17.5px;
+  width: 80px;
+  height: 30px;
+  cursor: pointer;
+  border: none;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.5px;
+  color: #FFFFFF;
+  
+  }
+
+
+
+
+.btn-load {
+  background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
+  border-radius: 17.5px;
+  width: 80px;
+  height: 30px;
+  cursor: pointer;
+  color: #FFFFFF;
+  text-align: center;
+
+}
+
+
+
 /* <-------------Footer-------> */
 
 .footer {
@@ -356,7 +502,7 @@ right: 2px;
 }
 
 
-.footer .box-container .box a{
+.footer .box-container .box-foot a{
   display: row;
   color: #FFFFFF;
   font-size: 10px;

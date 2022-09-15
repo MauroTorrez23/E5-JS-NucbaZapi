@@ -302,7 +302,7 @@ border-radius: 15px;
 .btn-add:hover,
 .hero-info a:hover {
   background-color: var(--fire);
-  transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;}
 
   
 /* ===========products section (most popular)========== */
@@ -319,7 +319,7 @@ border-radius: 15px;
   font-weight: 500;
   font-size: 22px;
   line-height: 131.02%;
-  /* or 29px */
+
   color: #FFFFFF;
   }
 

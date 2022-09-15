@@ -286,8 +286,8 @@ const productsData = [
         user: 'Los sopranos',
         category: 'milkshakes',
         cardImg: './images/Milkshake6.jpg',
-      },
-    ];
+      }
+];
 
     function splitProducts(size) {
       
@@ -300,6 +300,7 @@ const productsData = [
       
       return chunk;
     }
+
     const allProducts = {
       productList: splitProducts(6),
       next: 1,

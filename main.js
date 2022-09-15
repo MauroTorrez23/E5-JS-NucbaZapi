@@ -247,7 +247,7 @@ const completeBuy = () => {
  const init = () =>{
   document.addEventListener('DOMContentLoaded', renderCart(cart));
   document.addEventListener('DOMContentLoaded', showTotal(cart));
-  // products.addEventListener('click', addProduct)
+  products.addEventListener('click', addProduct)
   productsCart.addEventListener('click', handleQuantity);
   buyBtn.addEventListener('click', completeBuy);
   cartBtn.addEventListener('click', toggleCart);
